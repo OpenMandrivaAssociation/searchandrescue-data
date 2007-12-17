@@ -13,7 +13,6 @@ Group:      Games/Other
 Url:        http://wolfpack.twu.net/SearchAndRescue/index.html
 Source:     http://wolfpack.twu.net/users/wolfpack/%{Base_Name}-data-%{version}.tar.bz2
 BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 This is data package for Search and Rescue.
