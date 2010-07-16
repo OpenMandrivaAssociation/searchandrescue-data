@@ -1,8 +1,8 @@
 %define base_name   searchandrescue
 %define Base_Name   SearchAndRescue
 %define name        %{base_name}-data
-%define version     0.8.2
-%define release     %mkrel 7
+%define version     1.0.0
+%define release     %mkrel 1
 
 Name:       %{name}
 Version:    %{version}
@@ -10,8 +10,8 @@ Release:    %{release}
 Summary:    Data package for Search and Rescue
 License:    GPL
 Group:      Games/Other
-Url:        http://wolfpack.twu.net/SearchAndRescue/index.html
-Source:     http://wolfpack.twu.net/users/wolfpack/%{Base_Name}-data-%{version}.tar.bz2
+Url:        http://searchandrescue.sourceforge.net
+Source:     http://sourceforge.net/projects/searchandrescue/files/Data_Files/%{Base_Name}-data-%{version}.tar.gz
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
@@ -34,6 +34,5 @@ rm -rf %{buildroot}
 
 %files 
 %defattr(-,root,root)
-%doc LICENSE
 %{_gamesdatadir}/%{Base_Name}
 
