@@ -1,7 +1,7 @@
 %define base_name   searchandrescue
 %define Base_Name   SearchAndRescue
 %define name        %{base_name}-data
-%define version     1.0.0
+%define version     1.3.0
 %define release     %mkrel 1
 
 Name:       %{name}
