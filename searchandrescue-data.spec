@@ -33,3 +33,44 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_gamesdatadir}/%{base_name}
 
+
+
+%changelog
+* Fri Dec 16 2011 Andrey Bondrov <abondrov@mandriva.org> 1.3.0-2mdv2011.0
++ Revision: 743140
+- Fix game data installation path
+
+* Sat Jul 02 2011 Guillaume Rousse <guillomovitch@mandriva.org> 1.3.0-1
++ Revision: 688551
+- new version
+
+* Fri Jul 16 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.0-1mdv2011.0
++ Revision: 554156
+- new version
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 0.8.2-7mdv2010.0
++ Revision: 433685
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.8.2-6mdv2009.0
++ Revision: 242680
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Sun Aug 19 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.8.2-4mdv2008.0
++ Revision: 67141
+- rebuild
+
+
+* Tue Aug 01 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.8.2-3mdv2007.0
+- %%mkrel
+
+* Thu Aug 18 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.8.2-2mdk
+- fix data files location (fix bug #17634)
+
+* Wed Aug 17 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.8.2-1mdk
+- first distinct release
+
