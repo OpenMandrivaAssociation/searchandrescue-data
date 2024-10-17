@@ -7,7 +7,7 @@ Release:	3
 Summary:	Data package for Search and Rescue
 License:	GPLv2
 Group:		Games/Other
-Url:		http://searchandrescue.sourceforge.net
+Url:		https://searchandrescue.sourceforge.net
 Source:		http://sourceforge.net/projects/searchandrescue/files/Data_Files/%{Base_Name}-data-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
