@@ -2,8 +2,8 @@
 %define		Base_Name	SearchAndRescue
 
 Name:		%{base_name}-data
-Version:	1.3.0
-Release:	3
+Version:	1.7.0
+Release:	1
 Summary:	Data package for Search and Rescue
 License:	GPLv2
 Group:		Games/Other
